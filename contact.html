@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+
+    <nav class="navbar">
+
+      <a href="index.html" class="logo">
+        <img src="images/Navy_Blue_Minimalist_Aesthetic_Modern_Elegant_Curved_Text_Brand_Business_Circular_Logo___2_-removebg-preview.png"
+             alt="Portfolio Logo">
+      </a>
+
+      <button class="menu-toggle" aria-label="Open navigation menu"
+              aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html"class= "active">Contact</a></li>
+      </ul>
+
+    </nav>
+
+  </header>
+
+    <main>
+
+        <!-- Contact Introduction -->
+        <section class="contact-intro">
+            <h1>Get In Touch</h1>
+            <p>
+                Have a question, an opportunity or a project in mind?
+                I'd love to hear from you. Feel free to get in touch.
+            </p>
+        </section>
+
+
+<!-- Contact Section -->
+<section class="contact-section">
+
+    <!-- Contact Information -->
+    <div class="contact-info">
+
+        <h2>Let's Connect</h2>
+
+        <p>
+            I'm always interested in connecting with people,
+            exploring new opportunities and learning about
+            exciting projects in technology.
+        </p>
+
+        <div class="contact-detail">
+            <h3>Email</h3>
+            <p><a href="sreamohetswe@gmail.com">your@email.com</a></p>
+        </div>
+
+        <div class="contact-detail">
+            <h3>Professional Interests</h3>
+            <p>
+                Web Development, Software Development,
+                Artificial Intelligence and Cloud Computing.
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form-container">
+
+        <h2>Send Me a Message</h2>
+
+        <form class="contact-form" action="https://formspree.io/f/xppdjwaa" method="POST">
+
+            <label for="contact-name">Your Name</label>
+            <input type="text" id="contact-name" name="name"
+                   placeholder="Enter your name" required>
+
+            <label for="contact-email">Your Email</label>
+            <input type="email" id="contact-email" name="email"
+                   placeholder="Enter your email address" required>
+
+            <label for="contact-subject">Subject</label>
+            <input type="text" id="contact-subject" name="subject"
+                   placeholder="Enter the subject" required>
+
+            <label for="contact-message">Your Message</label>
+            <textarea id="contact-message" name="message"
+                      placeholder="Write your message here..."
+                      rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+            <p id="form-status" role="status" aria-live="polite"></p>
+        </form>
+
+    </div>
+
+</section>
+
+    </main>
+
+    <script src="script.js"></script>
+     
+    
+ <footer class="site-footer">
+      <div class="footer-content">
+        <h2 class="footer-logo">
+         <img src="images/Navy_Blue_Minimalist_Aesthetic_Modern_Elegant_Curved_Text_Brand_Business_Circular_Logo___2_-removebg-preview.png" 
+      alt="Portfolio Logo" class="footer-logo">
+        </h2>
+
+        <p>
+          Building, learning and creating
+          through technology.
+        </p>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html" >About</a>
+          <a href="projects.html">Projects</a>
+          <a href="skills.html">Skills</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-socials">
+
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/shakira-bofelo-4127532b2/"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Visit my LinkedIn profile">
+
+        <span class="linkedin-icon">in</span>
+    </a>
+
+    <!-- GitHub -->
+   <a href="YOUR_GITHUB_PROFILE_URL"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Visit my GitHub profile">
+       <span class="github-icon">
+        <i class="fa-brands fa-github"></i>
+  </span>
+</a>
+</div>
+        <div class="footer-bottom">
+          <p>
+            © 2026 Shakira Bofelo.
+            All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
